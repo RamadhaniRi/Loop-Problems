@@ -1,8 +1,21 @@
-number = int(input("Please type in a number, -1 to quit: "))
+
+number = 0
+
 while True:
-    if number == -1:
+    num = int(input("Input a number: "))
+
+    number += num
+
+    if num == 0:
         break
 
-    print(number ** 2)
 
-print("Thanks and bye!")
+print(number)
+
+total = 0
+for i in range(1, 3):
+    total += i
+print(total)
+
+
+
